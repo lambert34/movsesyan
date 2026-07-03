@@ -1,1 +1,1 @@
-/* Placeholder for future styles: layout/about.css. */
+.about__grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.about__text p+p{margin-top:18px}.about__stats{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.about__stats .card{font-weight:800;color:var(--color-primary-dark)}

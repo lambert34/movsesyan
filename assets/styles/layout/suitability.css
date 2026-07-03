@@ -1,1 +1,1 @@
-/* Placeholder for future styles: layout/suitability.css. */
+.suitability__grid{display:grid;grid-template-columns:1fr .85fr;gap:24px;align-items:start}.suitability__list{display:grid;gap:12px;margin-top:24px}.suitability__list span{padding:16px 18px;border-radius:18px;background:#fff;border:1px solid var(--color-line);font-weight:800}.notice{padding:30px;border-radius:var(--radius-lg);background:linear-gradient(135deg,#eef9fb,#fff);border:1px solid rgba(93,185,199,.4);box-shadow:var(--shadow-soft)}.notice p{margin-top:14px}

@@ -1,5 +1,1 @@
-/*
- * Заготовка для мобильного меню.
- * Позже здесь будет реализовано открытие/закрытие навигации,
- * управление состоянием кнопки меню и блокировка прокрутки страницы.
- */
+function initMenu(){const btn=document.querySelector('[data-menu-toggle]');const menu=document.querySelector('[data-menu]');if(!btn||!menu)return;const close=()=>{btn.classList.remove('is-open');menu.classList.remove('is-open');btn.setAttribute('aria-expanded','false');document.body.classList.remove('no-scroll')};btn.addEventListener('click',()=>{const open=!menu.classList.contains('is-open');btn.classList.toggle('is-open',open);menu.classList.toggle('is-open',open);btn.setAttribute('aria-expanded',String(open));document.body.classList.toggle('no-scroll',open)});menu.addEventListener('click',e=>{if(e.target.closest('a'))close()});window.addEventListener('keydown',e=>{if(e.key==='Escape')close()})}

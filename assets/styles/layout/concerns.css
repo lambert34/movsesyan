@@ -1,1 +1,1 @@
-/* Placeholder for future styles: layout/concerns.css. */
+.concerns{background:#fff}.concerns__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.concerns__grid .card{min-height:130px;font-weight:800;color:var(--color-primary-dark)}

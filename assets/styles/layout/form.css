@@ -1,1 +1,1 @@
-/* Placeholder for future styles: layout/form.css. */
+.form{display:grid;gap:22px}.form__grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.form label{display:grid;gap:8px}.form__note{padding:14px 16px;border-radius:16px;background:var(--color-bg-soft);font-weight:700}.form__submit{justify-self:start}.symptoms,.diagnoses{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}.check--consent{background:#f7fcff}

@@ -1,5 +1,1 @@
-/*
- * Заготовка для будущих анимаций при скролле.
- * Позже здесь будет реализовано появление секций и элементов
- * без подключения лишних библиотек.
- */
+function initReveal(){const items=document.querySelectorAll('.reveal');if(!items.length)return;if(!('IntersectionObserver'in window)){items.forEach(i=>i.classList.add('is-visible'));return}const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}})},{threshold:.12});items.forEach(item=>observer.observe(item))}

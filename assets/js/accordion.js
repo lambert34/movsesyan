@@ -1,5 +1,1 @@
-/*
- * Заготовка для FAQ-аккордеона.
- * Позже здесь будет реализовано раскрытие и сворачивание ответов
- * с учетом доступности и клавиатурной навигации.
- */
+function initAccordion(){document.querySelectorAll('[data-accordion]').forEach(root=>{root.querySelectorAll('.accordion__button').forEach(button=>{button.setAttribute('aria-expanded','false');button.addEventListener('click',()=>{const item=button.closest('.accordion__item');const panel=item.querySelector('.accordion__panel');const open=item.classList.toggle('is-open');button.setAttribute('aria-expanded',String(open));panel.style.maxHeight=open?panel.scrollHeight+'px':'0px'})})})}

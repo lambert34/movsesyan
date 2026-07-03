@@ -1,1 +1,1 @@
-/* Placeholder for future styles: layout/preparation.css. */
+.preparation__card{display:grid;grid-template-columns:.7fr 1fr;gap:24px;align-items:start}.preparation ul{display:grid;gap:12px;margin:0;padding-left:22px}.preparation li{color:var(--color-primary-dark);font-weight:700}

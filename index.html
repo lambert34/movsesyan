@@ -3,106 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Мовсесян Анастасия Арменовна — врач-ревматолог</title>
-  <meta name="description" content="Стартовая страница будущего лендинга врача-ревматолога Мовсесян Анастасии Арменовны.">
+  <title>Анастасия Мовсесян — врач-ревматолог | Онлайн-информационные консультации</title>
+  <meta name="description" content="Светлый лендинг врача-ревматолога Анастасии Мовсесян: онлайн-информационные консультации, анкета, стоимость, FAQ и контакты.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://revmatolog-movsesyan.ru/">
-  <meta property="og:title" content="Мовсесян Анастасия Арменовна — врач-ревматолог">
-  <meta property="og:description" content="Placeholder-описание для будущего лендинга врача-ревматолога.">
-  <meta property="og:image" content="https://revmatolog-movsesyan.ru/assets/images/placeholders/og-image.jpg">
+  <meta property="og:title" content="Анастасия Мовсесян — врач-ревматолог">
+  <meta property="og:description" content="Помощь в подготовке к очному приёму и понятный разбор жалоб, симптомов и анализов в онлайн-формате.">
+  <meta property="og:image" content="https://revmatolog-movsesyan.ru/assets/images/doctor/movsesyan.png">
   <link rel="stylesheet" href="assets/styles/main.css">
+  <!-- TODO: место для подключения Яндекс.Метрики на следующем этапе. -->
 </head>
 <body>
-  <header class="header">
+  <header class="header" data-header>
     <div class="header__container container">
-      <!-- Header content will be added later. -->
+      <a class="header__brand" href="index.html" aria-label="На главную"><span>Анастасия Мовсесян</span><small>врач-ревматолог</small></a>
+      <nav class="header__nav" data-menu aria-label="Основная навигация">
+        <a href="#about">Обо мне</a><a href="#concerns">С чем обратиться</a><a href="#process">Как проходит</a><a href="#services">Стоимость</a><a href="#faq">FAQ</a><a href="#contacts">Контакты</a>
+      </nav>
+      <a class="button button--small header__cta" href="questionnaire.html">Записаться</a>
+      <button class="header__burger" type="button" data-menu-toggle aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </header>
 
   <main class="main">
     <section class="hero section">
-      <div class="hero__container container">
-        <!-- Hero section content will be added later. -->
+      <div class="hero__container container reveal">
+        <div class="hero__content">
+          <p class="eyebrow">Врач-ревматолог • Онлайн-информационные консультации</p>
+          <h1>Помогу разобраться в причинах болей в суставах, спине и изменениях в анализах</h1>
+          <p class="hero__lead">Объясняю сложные вещи понятным языком, помогаю подготовиться к очному приёму и понять, какие вопросы стоит обсудить со специалистом.</p>
+          <div class="hero__actions"><a class="button" href="questionnaire.html">Записаться на консультацию</a><a class="button button--ghost" href="#process">Как проходит консультация</a></div>
+          <ul class="hero__facts"><li>Автор и соавтор научных работ</li><li>Выпускник и экс-научный сотрудник НИИ ревматологии им. В.А. Насоновой</li><li>Тёплый экспертный подход</li></ul>
+        </div>
+        <div class="hero__visual" aria-label="Фото врача">
+          <div class="hero__photo-card"><img src="assets/images/doctor/movsesyan.png" alt="Мовсесян Анастасия Арменовна, врач-ревматолог"><p>Информационный онлайн-формат · 30 минут</p></div>
+        </div>
       </div>
     </section>
 
-    <section class="about section">
-      <div class="about__container container">
-        <!-- About section content will be added later. -->
-      </div>
-    </section>
+    <section class="about section" id="about"><div class="container reveal"><div class="section-heading"><p class="eyebrow">Экспертность и внимание</p><h2>О враче</h2></div><div class="about__grid"><div class="about__text card card--large"><p>Мовсесян Анастасия Арменовна — врач-ревматолог, автор и соавтор научных работ, выпускник и экс-научный сотрудник НИИ Ревматологии им. В.А. Насоновой.</p><p>В работе делает акцент на внимательном разборе жалоб, понятном объяснении сложных медицинских терминов и аккуратной навигации пациента по дальнейшим шагам.</p></div><div class="about__stats"><article class="card">2 года клинической ординатуры</article><article class="card">Более года самостоятельной клинической практики</article><article class="card">Научный и клинический бэкграунд</article><article class="card">Понятное объяснение анализов и симптомов</article></div></div></div></section>
 
-    <section class="concerns section">
-      <div class="concerns__container container">
-        <!-- Concerns section content will be added later. -->
-      </div>
-    </section>
+    <section class="concerns section" id="concerns"><div class="container reveal"><div class="section-heading"><p class="eyebrow">Поводы для обращения</p><h2>С чем можно обратиться</h2></div><div class="concerns__grid"> <article class="card">Боли в суставах</article><article class="card">Боли в спине</article><article class="card">Артриты и артралгии</article><article class="card">Изменения в анализах</article><article class="card">Симптомы, похожие на ревматическую патологию</article><article class="card">Второе мнение</article><article class="card">Вопросы от коллег по пациенту</article></div></div></section>
 
-    <section class="suitability section">
-      <div class="suitability__container container">
-        <!-- Suitability section content will be added later. -->
-      </div>
-    </section>
+    <section class="suitability section"><div class="container reveal"><div class="suitability__grid"><div><p class="eyebrow">Кому подходит</p><h2>Онлайн-формат может быть удобен</h2><div class="suitability__list"><span>взрослым пациентам 18+</span><span>людям с болями в суставах и спине</span><span>людям с изменениями в анализах</span><span>тем, кто хочет услышать мнение ревматолога</span><span>коллегам, которым нужно мнение ревматолога по пациенту</span></div></div><aside class="notice"><h3>Когда онлайн-консультация не подходит</h3><p>Онлайн-формат не заменяет очный приём врача и не подходит для неотложных состояний. Если состояние резко ухудшилось или требуется срочная помощь, вызовите скорую помощь по телефону 112.</p><p>При некоторых активных и тяжёлых состояниях может потребоваться очный маршрут наблюдения.</p></aside></div></div></section>
 
-    <section class="process section">
-      <div class="process__container container">
-        <!-- Process section content will be added later. -->
-      </div>
-    </section>
+    <section class="process section" id="process"><div class="container reveal"><div class="section-heading"><p class="eyebrow">Понятный маршрут</p><h2>Как проходит консультация</h2></div><ol class="process__steps"><li><span>01</span>Вы оставляете заявку</li><li><span>02</span>Заполняете анкету</li><li><span>03</span>Врач знакомится с информацией</li><li><span>04</span>После согласования врач отправляет ссылку на оплату</li><li><span>05</span>После оплаты проходит консультация</li></ol><div class="process__meta"><b>Формат:</b> видео, аудио или текстовые сообщения · <b>Площадки:</b> Telegram, Zoom или другой согласованный канал · <b>Длительность:</b> 30 минут</div></div></section>
 
-    <section class="preparation section">
-      <div class="preparation__container container">
-        <!-- Preparation section content will be added later. -->
-      </div>
-    </section>
+    <section class="preparation section"><div class="container reveal"><div class="preparation__card card card--large"><div><p class="eyebrow">До встречи</p><h2>Что подготовить заранее</h2></div><ul><li>сформулируйте основные жалобы</li><li>заполните анкету</li><li>подготовьте выписки, анализы и снимки при наличии</li><li>загрузите файлы на Яндекс.Диск или другое облако</li><li>вставьте ссылку на файлы в анкету</li></ul></div></div></section>
 
-    <section class="services section">
-      <div class="services__container container">
-        <!-- Services section content will be added later. -->
-      </div>
-    </section>
+    <section class="services section" id="services"><div class="container reveal"><div class="section-heading"><p class="eyebrow">Стоимость</p><h2>Услуги и стоимость</h2></div><div class="services__grid"><article class="service-card"><h3>Онлайн-консультация</h3><strong>2500 ₽</strong><p>Для спокойного разбора жалоб, симптомов, анализов и вопросов, которые важно обсудить со специалистом.</p><a class="button" href="questionnaire.html">Записаться</a></article><article class="service-card service-card--accent"><h3>Срочная онлайн-консультация</h3><strong>5000 ₽</strong><small>в течение 12–24 часов</small><p>Для случаев, когда нужно быстрее обсудить ситуацию и понять дальнейший порядок действий.</p><a class="button" href="questionnaire.html">Записаться</a></article><article class="service-card"><h3>Консультация для коллег</h3><strong>2500 ₽</strong><p>Для врачей, которым нужно мнение ревматолога по клиническому случаю пациента.</p><a class="button" href="questionnaire.html">Записаться</a></article></div></div></section>
 
-    <section class="reviews section">
-      <div class="reviews__container container">
-        <!-- Reviews section content will be added later. -->
-      </div>
-    </section>
+    <section class="reviews section"><div class="container reveal"><div class="section-heading"><p class="eyebrow">Отзывы</p><h2>Отзывы будут добавлены позже</h2></div><div class="placeholder-grid"><article class="placeholder-card">Место для текстового отзыва</article><article class="placeholder-card">Место для скриншота</article><article class="placeholder-card">Место для истории пациента</article></div></div></section>
+    <section class="publications section"><div class="container reveal"><div class="section-heading"><p class="eyebrow">Научный бэкграунд</p><h2>Публикации и научные работы</h2></div><div class="placeholder-grid"><article class="placeholder-card"><h3>Название работы</h3><p>Краткое описание и ссылка будут добавлены позже.</p></article><article class="placeholder-card"><h3>Публикация</h3><p>Структура подготовлена для будущего списка работ.</p></article></div></div></section>
 
-    <section class="publications section">
-      <div class="publications__container container">
-        <!-- Publications section content will be added later. -->
-      </div>
-    </section>
+    <section class="faq section" id="faq"><div class="container reveal"><div class="section-heading"><p class="eyebrow">FAQ</p><h2>Частые вопросы</h2></div><div class="accordion" data-accordion>
+        <article class="accordion__item"><button class="accordion__button" type="button">Заменяет ли онлайн-консультация очный приём?</button><div class="accordion__panel"><p>Нет. Онлайн-формат носит информационный характер и не заменяет очный осмотр врача.</p></div></article>
+        <article class="accordion__item"><button class="accordion__button" type="button">Можно ли поставить диагноз онлайн?</button><div class="accordion__panel"><p>Постановка диагноза требует очного медицинского маршрута, осмотра и анализа документов специалистом в рамках медицинской помощи.</p></div></article>
+        <article class="accordion__item"><button class="accordion__button" type="button">Что подготовить перед консультацией?</button><div class="accordion__panel"><p>Анкету, список вопросов, доступные выписки, анализы и снимки в виде ссылки на облачное хранилище.</p></div></article>
+        <article class="accordion__item"><button class="accordion__button" type="button">Можно ли прислать анализы и снимки?</button><div class="accordion__panel"><p>Да, можно вставить ссылку на Яндекс.Диск или другое облако. Файлы не загружаются и не хранятся на сайте.</p></div></article>
+        <article class="accordion__item"><button class="accordion__button" type="button">Как проходит оплата?</button><div class="accordion__panel"><p>После знакомства с анкетой и согласования формата врач отправит ссылку на оплату. Реальная оплата на сайте пока не подключена.</p></div></article>
+        <article class="accordion__item"><button class="accordion__button" type="button">Сколько длится консультация?</button><div class="accordion__panel"><p>Ориентировочная длительность онлайн-коммуникации — 30 минут.</p></div></article>
+        <article class="accordion__item"><button class="accordion__button" type="button">В каком формате проходит общение?</button><div class="accordion__panel"><p>Видео, аудио или текстовые сообщения в Telegram, Zoom или другом согласованном канале.</p></div></article>
+        <article class="accordion__item"><button class="accordion__button" type="button">Что делать при срочном ухудшении состояния?</button><div class="accordion__panel"><p>При резком ухудшении состояния или признаках неотложной ситуации вызовите скорую помощь по телефону 112.</p></div></article>
+      </div></div></section>
 
-    <section class="faq section">
-      <div class="faq__container container">
-        <!-- FAQ section content will be added later. -->
-      </div>
-    </section>
-
-    <section class="legal section">
-      <div class="legal__container container">
-        <!-- Legal section content will be added later. -->
-      </div>
-    </section>
-
-    <section class="cta section">
-      <div class="cta__container container">
-        <!-- CTA section content will be added later. -->
-      </div>
-    </section>
+    <section class="legal section"><div class="container reveal"><div class="legal__box"><h2>Важная информация</h2><p>Консультация не является медицинской услугой, не заменяет очный приём врача, не является основанием для постановки диагноза, назначения медикаментов или плана лечения. Консультация представляет собой информационную коммуникацию с лицом, имеющим опыт работы в медицине.</p><p>При неотложных состояниях вызовите скорую помощь по телефону 112.</p></div></div></section>
+    <section class="cta section"><div class="container reveal"><div class="cta__box"><h2>Заполните анкету перед консультацией</h2><p>Так врачу будет проще заранее ознакомиться с вашей ситуацией и согласовать дальнейший формат общения.</p><div class="cta__actions"><a class="button" href="questionnaire.html">Записаться на консультацию</a><a class="button button--ghost" href="#">Написать в Telegram</a></div></div></div></section>
   </main>
-
-  <footer class="footer">
-    <div class="footer__container container">
-      <!-- Footer content will be added later. -->
-    </div>
-  </footer>
-
-  <script src="assets/js/menu.js"></script>
-  <script src="assets/js/accordion.js"></script>
-  <script src="assets/js/form.js"></script>
-  <script src="assets/js/animations.js"></script>
-  <script src="assets/js/main.js"></script>
+  <footer class="footer" id="contacts"><div class="footer__container container"><div><a class="footer__brand" href="index.html">Мовсесян Анастасия Арменовна</a><p>Врач-ревматолог. Онлайн-информационные консультации для взрослых пациентов и коллег.</p></div><address><a href="mailto:hello@example.com">hello@example.com</a><a href="#">Telegram placeholder</a></address><nav><a href="#">Политика обработки персональных данных</a><a href="#">Договор оферты</a><a href="#">Согласие на обработку персональных данных</a></nav></div></footer>
+  <script src="assets/js/menu.js"></script><script src="assets/js/accordion.js"></script><script src="assets/js/form.js"></script><script src="assets/js/animations.js"></script><script src="assets/js/main.js"></script>
 </body>
 </html>

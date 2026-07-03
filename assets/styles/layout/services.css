@@ -1,1 +1,1 @@
-/* Placeholder for future styles: layout/services.css. */
+.services{background:#fff}.services__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service-card{display:flex;flex-direction:column;gap:16px}.service-card strong{font-size:2.5rem;color:var(--color-primary-dark);letter-spacing:-.05em}.service-card small{color:var(--color-primary);font-weight:900}.service-card .button{margin-top:auto}.service-card--accent{background:linear-gradient(145deg,#fff,#ecf9fb);border-color:rgba(93,185,199,.55)}
