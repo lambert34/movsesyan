@@ -1,1 +1,1 @@
-/* Placeholder for future styles: layout/cta.css. */
+.cta__box{text-align:center;padding:54px;border-radius:36px;background:linear-gradient(135deg,var(--color-primary-dark),var(--color-primary));box-shadow:var(--shadow-card)}.cta__box h2,.cta__box p{color:#fff}.cta__box p{max-width:650px;margin:16px auto 26px;opacity:.86}.cta__actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}.cta .button--ghost{background:rgba(255,255,255,.12);color:#fff;border-color:rgba(255,255,255,.3)}

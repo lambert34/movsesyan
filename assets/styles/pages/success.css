@@ -1,1 +1,1 @@
-/* Placeholder for future styles: pages/success.css. */
+.success{min-height:100vh;display:grid;place-items:center;background:radial-gradient(circle at 30% 10%,rgba(93,185,199,.24),transparent 36%),var(--gradient)}.success__container{max-width:820px}.success__card{text-align:center;padding:56px;border-radius:38px;background:rgba(255,255,255,.86);border:1px solid var(--color-line);box-shadow:var(--shadow-card)}.success__text{font-size:1.13rem;margin:18px 0 28px}.success__actions{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}

@@ -1,51 +1,21 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Анкета перед онлайн-консультацией</title>
-  <link rel="stylesheet" href="assets/styles/main.css">
-</head>
-<body>
-  <header class="header">
-    <div class="header__container container">
-      <!-- Header content will be added later. -->
-    </div>
-  </header>
-
-  <main class="main">
-    <section class="questionnaire section">
-      <div class="questionnaire__container container">
-        <form class="form questionnaire__form" action="#" method="post">
-          <!-- Future form fields:
-            - согласие с офертой и политикой обработки персональных данных
-            - ФИО
-            - возраст
-            - Telegram
-            - email
-            - заболевания
-            - лекарства
-            - причина обращения
-            - симптомы
-            - диагнозы
-            - дополнительная информация
-            - ссылка на анализы / снимки / облако
-          -->
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer__container container">
-      <!-- Footer content will be added later. -->
-    </div>
-  </footer>
-
-  <script src="assets/js/menu.js"></script>
-  <script src="assets/js/accordion.js"></script>
-  <script src="assets/js/form.js"></script>
-  <script src="assets/js/animations.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Анкета перед онлайн-консультацией | Анастасия Мовсесян</title><meta name="description" content="Анкета перед онлайн-информационной консультацией врача-ревматолога Анастасии Мовсесян."><meta property="og:type" content="website"><meta property="og:title" content="Анкета перед онлайн-консультацией"><meta property="og:description" content="Заполните анкету, чтобы врач заранее ознакомился с вашей ситуацией."><meta property="og:image" content="https://revmatolog-movsesyan.ru/assets/images/doctor/movsesyan.png"><link rel="stylesheet" href="assets/styles/main.css"><!-- TODO: место для подключения Яндекс.Метрики. --></head><body><header class="header" data-header><div class="header__container container"><a class="header__brand" href="index.html"><span>Анастасия Мовсесян</span><small>врач-ревматолог</small></a><nav class="header__nav" data-menu><a href="index.html#about">Обо мне</a><a href="index.html#concerns">С чем обратиться</a><a href="index.html#process">Как проходит</a><a href="index.html#services">Стоимость</a><a href="index.html#faq">FAQ</a><a href="#contacts">Контакты</a></nav><a class="button button--small header__cta" href="questionnaire.html">Записаться</a><button class="header__burger" type="button" data-menu-toggle aria-label="Открыть меню" aria-expanded="false"><span></span><span></span><span></span></button></div></header><main class="main"><section class="questionnaire section"><div class="questionnaire__container container reveal"><div class="questionnaire__intro"><p class="eyebrow">Перед консультацией</p><h1>Анкета перед онлайн-консультацией</h1><p>Пожалуйста, заполните анкету перед консультацией. Это поможет заранее ознакомиться с вашей ситуацией. После отправки врач свяжется с вами в Telegram или по email и отправит ссылку на оплату.</p></div><form class="form questionnaire__form" data-form action="success.html" method="post"><label class="check check--consent"><input required type="checkbox" name="consent"><span>Согласен(на) с офертой и политикой обработки персональных данных</span></label><div class="form__grid"><label>ФИО<input required name="name" type="text" placeholder="Иванова Анна Сергеевна"></label><label>Возраст<input required name="age" type="number" min="18" placeholder="35"></label><label>Telegram<input name="telegram" type="text" placeholder="@username"></label><label>Email<input required name="email" type="email" placeholder="name@example.com"></label></div><label>Есть ли заболевания<textarea name="diseases" rows="3" placeholder="Укажите известные заболевания, если есть"></textarea></label><label>Принимаете ли лекарства, если да — какие<textarea name="medicines" rows="3"></textarea></label><label>Что привело на консультацию, что беспокоит, какая цель консультации<textarea required name="goal" rows="5"></textarea></label><fieldset><legend>Симптомы</legend><div class="symptoms">
+<label class="check"><input type="checkbox" name="symptoms" value="высыпания на коже"><span>высыпания на коже</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="плохая переносимость пребывания на солнце"><span>плохая переносимость пребывания на солнце</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="резкое сильное выпадение волос"><span>резкое сильное выпадение волос</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="язвочки во рту, носу или половых органах"><span>язвочки во рту, носу или половых органах</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="сухость во рту и глазах"><span>сухость во рту и глазах</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="гнойные или кровянистые выделения из носа не во время ОРВИ"><span>гнойные или кровянистые выделения из носа не во время ОРВИ</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="боли в суставах"><span>боли в суставах</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="отёчность, покраснение, повышение температуры суставов"><span>отёчность, покраснение, повышение температуры суставов</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="повышение температуры без признаков ОРВИ"><span>повышение температуры без признаков ОРВИ</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="новые головные боли"><span>новые головные боли</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="нарушение сознания"><span>нарушение сознания</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="сильная мышечная слабость"><span>сильная мышечная слабость</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="нарушение чувствительности в кистях или стопах"><span>нарушение чувствительности в кистях или стопах</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="недавно возникшая одышка или усиление одышки"><span>недавно возникшая одышка или усиление одышки</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="побеление или посинение пальцев на холоде"><span>побеление или посинение пальцев на холоде</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="тромбозы"><span>тромбозы</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="невынашивание беременности"><span>невынашивание беременности</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="сильное снижение веса при отсутствии изменения образа жизни"><span>сильное снижение веса при отсутствии изменения образа жизни</span></label>
+<label class="check"><input type="checkbox" name="symptoms" value="трудности при проглатывании пищи"><span>трудности при проглатывании пищи</span></label>
+</div></fieldset><fieldset><legend>Были ли диагнозы</legend><div class="diagnoses"><label class="check"><input type="checkbox" name="diagnoses" value="psoriasis"><span>псориаз</span></label><label class="check"><input type="checkbox" name="diagnoses" value="uveitis"><span>увеит</span></label><label class="check"><input type="checkbox" name="diagnoses" value="iridocyclitis"><span>иридоциклит</span></label><label class="check"><input type="checkbox" name="diagnoses" value="crohn"><span>болезнь Крона</span></label><label class="check"><input type="checkbox" name="diagnoses" value="colitis"><span>неспецифический язвенный колит</span></label></div></fieldset><label>Дополнительная информация по симптомам<textarea name="details" rows="4"></textarea></label><label>Ссылка на анализы, снимки, выписки или облако<input name="files" type="url" placeholder="https://disk.yandex.ru/... или другая облачная ссылка"></label><p class="form__note">Файлы не загружаются на сайт. Используйте ссылку на Яндекс.Диск или другое облако.</p><button class="button form__submit" type="submit">Отправить анкету</button></form></div></section></main><footer class="footer" id="contacts"><div class="footer__container container"><div><a class="footer__brand" href="index.html">Мовсесян Анастасия Арменовна</a><p>Врач-ревматолог. Онлайн-информационные консультации.</p></div><address><a href="mailto:hello@example.com">hello@example.com</a><a href="#">Telegram placeholder</a></address><nav><a href="#">Политика обработки персональных данных</a><a href="#">Договор оферты</a><a href="#">Согласие на обработку персональных данных</a></nav></div></footer><script src="assets/js/menu.js"></script><script src="assets/js/accordion.js"></script><script src="assets/js/form.js"></script><script src="assets/js/animations.js"></script><script src="assets/js/main.js"></script></body></html>

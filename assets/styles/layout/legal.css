@@ -1,1 +1,1 @@
-/* Placeholder for future styles: layout/legal.css. */
+.legal__box{padding:34px;border-radius:var(--radius-lg);background:#fff;border:1px solid var(--color-line);box-shadow:var(--shadow-soft);border-left:6px solid var(--color-accent)}.legal__box p{margin-top:14px}

@@ -1,1 +1,1 @@
-/* Placeholder for future styles: components/animations.css. */
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}.reveal{opacity:1;transform:none}}

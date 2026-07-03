@@ -1,5 +1,1 @@
-/*
- * Заготовка для будущей обработки анкеты.
- * Позже здесь появятся клиентская валидация, подготовка данных
- * и подключение Telegram/email-интеграции без хранения медицинских файлов на сайте.
- */
+function initForm(){document.querySelectorAll('[data-form]').forEach(form=>{form.addEventListener('submit',event=>{event.preventDefault();if(!form.reportValidity())return;const button=form.querySelector('[type="submit"]');if(button){button.disabled=true;button.textContent='Отправляем...'}window.setTimeout(()=>{window.location.href='success.html'},550)})})}

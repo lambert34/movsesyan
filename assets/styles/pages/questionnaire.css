@@ -1,1 +1,1 @@
-/* Placeholder for future styles: pages/questionnaire.css. */
+.questionnaire{background:radial-gradient(circle at 80% 0,rgba(93,185,199,.2),transparent 34%),var(--gradient)}.questionnaire__container{max-width:980px}.questionnaire__intro{margin-bottom:30px}.questionnaire__intro p:last-child{max-width:820px;font-size:1.1rem}.questionnaire__form{padding:30px;border-radius:34px;background:rgba(255,255,255,.82);border:1px solid var(--color-line);box-shadow:var(--shadow-card);backdrop-filter:blur(18px)}

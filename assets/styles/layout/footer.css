@@ -1,1 +1,1 @@
-/* Placeholder for future styles: layout/footer.css. */
+.footer{padding:46px 0;background:#0d2f47;color:#fff}.footer__container{display:grid;grid-template-columns:1.2fr .7fr 1fr;gap:28px}.footer a,.footer p{color:rgba(255,255,255,.78)}.footer a:hover{color:#fff}.footer__brand{display:block;font-weight:900;color:#fff!important;margin-bottom:10px}address,.footer nav{display:grid;gap:10px;font-style:normal}
