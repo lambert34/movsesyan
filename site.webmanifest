@@ -1,0 +1,20 @@
+{
+  "name": "Мовсесян Анастасия Арменовна — врач-ревматолог",
+  "short_name": "Врач-ревматолог",
+  "icons": [
+    {
+      "src": "assets/images/fav/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/fav/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0f3852",
+  "background_color": "#f4fbff",
+  "display": "standalone",
+  "start_url": "./"
+}
