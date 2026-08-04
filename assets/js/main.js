@@ -1,1 +1,1 @@
-document.addEventListener('DOMContentLoaded',()=>{initMenu?.();initAccordion?.();initForm?.();initReveal?.()});
+document.addEventListener('DOMContentLoaded',()=>{initMenu?.();initAccordion?.();initWeb3Forms?.();initReveal?.()});
