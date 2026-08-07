@@ -12,7 +12,7 @@
 - Имитация отправки анкеты в `assets/js/form.js`: данные не отправляются на сервер, после успешной клиентской проверки происходит переход на `success.html`.
 - Мягкие scroll-анимации в `assets/js/animations.js`.
 - Адаптив для desktop/tablet/mobile в `assets/styles/responsive/media.css`.
-- SEO title/description и Open Graph на страницах, а также комментарии для будущего подключения Яндекс.Метрики.
+- SEO title/description и Open Graph на страницах, а также счётчик Яндекс.Метрики.
 
 ## Важно по интеграциям
 
